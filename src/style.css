@@ -39,7 +39,7 @@ li {
 }
 
 h1 {
-    font-size: 90px;
+    font-size: 75px;
     margin: 0;
 }
 
@@ -66,16 +66,18 @@ p {
 }
 
 .hero-text {
-    margin: auto;
-    width:50%;
+    margin:auto;
+    width:60%;
     align-items: center;
 }
 
 .button {
     width: 150px;
     height: 55px;
-    border-radius: 30px;
-    background-color: coral;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgb(127, 127, 127);
+    background-color: rgb(196, 4, 4);
+    cursor:pointer;
     text-align: center;
     font-size: 30px;
     font-weight: 300;
@@ -85,7 +87,7 @@ p {
 }
 
 .button:hover {
-    background-color: #ef744b;
+    background-color: rgb(255, 0, 0);
 }
 
 .button:active {
@@ -209,4 +211,45 @@ a {
     .logo {
         display: none;
     }
+}
+.contact-box {
+    margin:auto;
+    width:60%;
+    top:50%;
+    left:50%;
+}
+
+form {
+    margin:35px;
+}
+
+.input-field{
+    width:80%;
+    height:40px;
+    margin-top:20px;
+    padding-left:10px;  
+    padding-right:10px;
+    border: 1px solid #777;
+    border-radius:14px;
+    outline:none;
+}
+
+.textarea-field{
+    height:150px;
+    padding-top:10px;
+}
+
+.btn{
+    border-radius:20px;
+    color:#fff;
+    margin-top:18px;
+    padding:10px;
+    background-color:rgb(196, 4, 4);
+    font-size:18px;
+    border:none;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background-color: rgb(255, 0, 0);
 }
