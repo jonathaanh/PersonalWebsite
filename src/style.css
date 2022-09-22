@@ -66,12 +66,13 @@ p {
 }
 
 .hero-text {
-    margin-left: 80px;
-    margin-bottom: 200px;
+    margin: auto;
+    width:50%;
+    align-items: center;
 }
 
 .button {
-    width: 200px;
+    width: 150px;
     height: 55px;
     border-radius: 30px;
     background-color: coral;
@@ -80,6 +81,7 @@ p {
     font-weight: 300;
     padding-top: 5px;
     margin-top: 20px;
+    margin-right:20px;
 }
 
 .button:hover {
@@ -93,6 +95,7 @@ p {
 
 .socials {
     padding-bottom: 200px;
+    display:flex;
 }
 
 .logo {
@@ -128,7 +131,7 @@ p {
 }
 
 .project-card {
-    width: 300px;
+    width: 500px;
     height: 500px;
     box-shadow: 5px 5px 20px rgb(197, 195, 195);
     margin: 10px;
