@@ -8,7 +8,7 @@ section {
 }
 
 .hero {
-    background-color: #1c1d25;
+    background-color: #404965;
     height: 100vh;
     color: white;
     font-size: 40px;
@@ -120,23 +120,13 @@ p {
     text-align: center;
     padding: 80px;
 }
-
-.headshot {
-    width: 300px;
-    border-radius: 150px;
-    margin-left: 80px;
-}
-
-.headshot-container {
-    display: flex;
-    align-items: center;
-}
-
 .project-card {
     width: 500px;
     height: 500px;
     box-shadow: 5px 5px 20px rgb(197, 195, 195);
     margin: 10px;
+    border: 1px solid #777;
+    border-radius:14px;
 }
 
 .project-container {
@@ -154,7 +144,7 @@ p {
 .project-image {
     margin-top: 25px;
     width: 250px;
-    border-radius: 125px;
+    border-radius: 20px;
 }
 
 hr {
